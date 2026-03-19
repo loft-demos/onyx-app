@@ -67,7 +67,7 @@ spec:
     virtualClusterInstance: argocd
     namespace: argocd
     sso:
-      host: https://argocd-{REPLACE_VCLUSTER_NAME}.{REPLACE_BASE_DOMAIN}
+      host: https://argocd-onyx.us.demo.dev
       assignedRoles:
         - role:admin
   namespacePattern:
